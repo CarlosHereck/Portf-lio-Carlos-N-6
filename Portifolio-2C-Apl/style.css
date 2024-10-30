@@ -10,22 +10,41 @@ body{
     align-items: center;
     max-width: 150vh;
     height: auto;
-    text-aling: center;
-    border: red solid 3px;
-    padding-top:3rem;
+    border: blue solid 10px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 3rem;
 }
 
 img{
-    border-radius: 125px;
-    height: 250px;
+    border-radius: 200px;
+    width: 200px;
+    padding: 5px 0 0 0;
 }
 
 .perfil{
     font-size: 28px;
-    color: brown;
+    color: black;
     font-weight: bold;
 }
 
 h1{
     font-size: 36px;
+}
+.desc{
+    color: darkgray;
+}
+
+a{
+    background-color: darkgray;
+    color: black;
+    padding: 5px 1rem;
+    border-radius: 10px;
+    direction: none;
+    margin: 1rem;
+}
+
+h2{
+    text-align: left;
+    padding-top: 3rem;
 }
